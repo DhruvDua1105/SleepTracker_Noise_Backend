@@ -34,7 +34,7 @@ exports.deleteSleepRecord = async (req, res, next) => {
             if (!record) {
                   return res.status(404).json({ error: 'Record not found, please check for a valid record' });
             }
-            res.status(200).json({ "deletedRecord": record }).end();
+            res.status(204).end();
       } catch (error) {
             next(error);
       }

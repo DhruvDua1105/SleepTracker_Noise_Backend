@@ -6,11 +6,11 @@
 2. Run `npm install` to install dependencies.
 3. Create a `.env` file with the following contents:
     ```
-    MONGODB_URI=mongodb://localhost/sleep-tracker
-    MONGODB_URI_TEST=mongodb://localhost/sleep-tracker-test
-    PORT=3000
+    MONGODB_URI="your mongodb URI"
+    MONGODB_URI_TEST="your test mongodb URI"
+    PORT="port where backend is running"
     ```
-4. Start the server with `node index.js`.
+4. Start the server with `npm start`.
 
 ## Endpoints
 
